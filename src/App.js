@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
-import './App.css';
-import { Route, Switch, Redirect } from 'react-router-dom';
-import Homepage from './pages/homepage/homepage.component'
-import ShopPage from './pages/shop/Shop.component'
-import SignInAndSignUpPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up.component'
-import CheckoutPage from './pages/checkout/checkout.component'
-import Header from './components/header/header.component'
+import { Route, Switch} from 'react-router-dom';
 import { setCurrentUser } from './redux/user/user.actions'
 import { createStructuredSelector } from 'reselect'
 import { selectCurrentUser } from './redux/user/user.selector'
+
+import './App.css';
+import Homepage from './pages/homepage/homepage.component'
+import ShopPage from './pages/shop/shop.component'
+import Header from './components/header/header.component'
 
 class App extends Component {
   render() {
@@ -18,12 +17,11 @@ class App extends Component {
       <Switch>
         <Route exact path='/' component={Homepage} />
         <Route path='/shop' component={ShopPage} />
-        <Route path='/checkout' component={CheckoutPage} />
-        <Route path='/signin' render={() => this.props.currentUser ? (<Redirect to='/' />) : <SignInAndSignUpPage />} />
       </Switch>
     </div>;
   }
 }
+
 const mapStateToProps = createStructuredSelector({
   currentUser: selectCurrentUser,
 })
