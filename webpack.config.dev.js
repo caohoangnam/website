@@ -94,11 +94,14 @@ module.exports = {
     contentBase: './dist',
     hot: true,
   },
+  resolve: {
+    extensions: ['.js', '.jsx'],
+  },
   plugins: [
     extractSass,
     // new ExtractTextPlugin('[name].[hash].css'),
     new HtmlWebPackPlugin({
-      template: './src/index.html',
+      template: './public/index.html',
       filename: './index.html',
     }),
     new CleanWebpackPlugin(),
