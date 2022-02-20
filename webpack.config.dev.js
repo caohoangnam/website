@@ -93,6 +93,7 @@ module.exports = {
   devServer: {
     contentBase: './dist',
     hot: true,
+    open: true,
   },
   resolve: {
     extensions: ['.js', '.jsx'],
