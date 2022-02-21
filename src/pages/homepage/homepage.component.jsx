@@ -1,4 +1,6 @@
 import React from 'react';
+import slide33 from 'assets/images/slide33.jpg';
+import apro from 'assets/images/apro151-1-270x350.jpg';
 
 export default function Homepage() {
     return (
@@ -6,7 +8,7 @@ export default function Homepage() {
   <div className="slide-home-03">
     <div className="response-product product-list-owl owl-slick equal-container better-height">
       <div className="slide-wrap">
-        <img src="assets/images/slide33.jpg" alt="image" />
+	      <img src={slide33} alt="image" />
         <div className="slide-info">
           <div className="container">
             <div className="slide-inner">
@@ -37,7 +39,7 @@ export default function Homepage() {
             <div className="product-inner tooltip-top tooltip-all-top">
               <div className="product-thumb">
                 <a className="thumb-link" href="#">
-                  <img className="img-responsive" src="assets/images/apro151-1-270x350.jpg" alt="Utility Pockets" width={270} height={350} />
+			<img className="img-responsive" src={apro} alt="Utility Pockets" width={270} height={350} />
                 </a>
                 <div className="flash">
                   <span className="onsale"><span className="number">-11%</span></span>
@@ -72,7 +74,7 @@ export default function Homepage() {
             <div className="product-inner tooltip-top tooltip-all-top">
               <div className="product-thumb">
                 <a className="thumb-link" href="#">
-                  <img className="img-responsive" src="assets/images/apro171-1-270x350.jpg" alt="Knitted Stripe " width={270} height={350} />
+			<img className="img-responsive" src={apro} alt="Knitted Stripe " width={270} height={350} />
                 </a>
                 <div className="flash">
                   <span className="onnew"><span className="text">New</span></span></div>
@@ -129,7 +131,7 @@ export default function Homepage() {
             <div className="product-inner tooltip-top tooltip-all-top">
               <div className="product-thumb">
                 <a className="thumb-link" href="#">
-                  <img className="img-responsive" src="assets/images/apro71-1-270x350.jpg" alt="Women Bags" width={270} height={350} />
+                  <img className="img-responsive" src={apro} alt="Women Bags" width={270} height={350} />
                 </a>
                 <div className="flash">
                   <span className="onsale"><span className="number">-18%</span></span>
@@ -164,7 +166,7 @@ export default function Homepage() {
             <div className="product-inner tooltip-top tooltip-all-top">
               <div className="product-thumb">
                 <a className="thumb-link" href="#">
-                  <img className="img-responsive" src="assets/images/apro201-1-270x350.jpg" alt="Mini Dress" width={270} height={350} />
+                  <img className="img-responsive" src={apro} alt="Mini Dress" width={270} height={350} />
                 </a>
                 <div className="flash">
                   <span className="onsale"><span className="number">-7%</span></span>
@@ -199,7 +201,7 @@ export default function Homepage() {
             <div className="product-inner tooltip-top tooltip-all-top">
               <div className="product-thumb">
                 <a className="thumb-link" href="#">
-                  <img className="img-responsive" src="assets/images/apro51012-1-270x350.jpg" alt="Print In White" width={270} height={350} />
+                  <img className="img-responsive" src={apro} alt="Print In White" width={270} height={350} />
                 </a>
                 <div className="flash">
                   <span className="onsale"><span className="number">-21%</span></span>
@@ -234,7 +236,7 @@ export default function Homepage() {
             <div className="product-inner tooltip-top tooltip-all-top">
               <div className="product-thumb">
                 <a className="thumb-link" href="#">
-                  <img className="img-responsive" src="assets/images/apro302-270x350.jpg" alt="Smock Dress" width={270} height={350} />
+                  <img className="img-responsive" src={apro} alt="Smock Dress" width={270} height={350} />
                 </a>
                 <div className="flash">
                   <span className="onnew"><span className="text">New</span></span></div>
@@ -264,45 +266,11 @@ export default function Homepage() {
               </div>
             </div>
           </div>
-          <div className="product-item best-selling style-04 rows-space-30 col-bg-3 col-xl-3 col-lg-4 col-md-4 col-sm-6 col-ts-6 post-93 product type-product status-publish has-post-thumbnail product_cat-light product_cat-table product_cat-new-arrivals product_tag-table product_tag-sock first instock shipping-taxable purchasable product-type-simple">
-            <div className="product-inner tooltip-top tooltip-all-top">
-              <div className="product-thumb">
-                <a className="thumb-link" href="#">
-                  <img className="img-responsive" src="assets/images/apro13-1-270x350.jpg" alt="Black Shirt" width={270} height={350} />
-                </a>
-                <div className="flash">
-                  <span className="onnew"><span className="text">New</span></span></div>
-                <div className="group-button">
-                  <div className="add-to-cart">
-                    <a href="#" className="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to
-                      cart</a>
-                  </div>
-                  <a href="#" className="button yith-wcqv-button">Quick View</a>
-                  <div className="akasha product compare-button">
-                    <a href="#" className="compare button">Compare</a></div>
-                  <div className="yith-wcwl-add-to-wishlist">
-                    <div className="yith-wcwl-add-button show">
-                      <a href="#" className="add_to_wishlist">Add to Wishlist</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="product-info">
-                <h3 className="product-name product_title">
-                  <a href="#">Black Shirt</a>
-                </h3>
-                <span className="price"><span className="akasha-Price-amount amount"><span className="akasha-Price-currencySymbol">$</span>109.00</span></span>
-                <div className="rating-wapper nostar">
-                  <div className="star-rating"><span style={{width: '0%'}}>Rated <strong className="rating">0</strong> out of 5</span></div>
-                  <span className="review">(0)</span></div>
-              </div>
-            </div>
-          </div>
           <div className="product-item best-selling style-04 rows-space-30 col-bg-3 col-xl-3 col-lg-4 col-md-4 col-sm-6 col-ts-6 post-28 product type-product status-publish has-post-thumbnail product_cat-light product_cat-chair product_cat-sofas product_tag-light product_tag-sock  instock sale featured shipping-taxable purchasable product-type-simple">
             <div className="product-inner tooltip-top tooltip-all-top">
               <div className="product-thumb">
                 <a className="thumb-link" href="#">
-                  <img className="img-responsive" src="assets/images/apro1211-2-270x350.jpg" alt="Classic Shirt" width={270} height={350} />
+                  <img className="img-responsive" src={apro} alt="Classic Shirt" width={270} height={350} />
                 </a>
                 <div className="flash">
                   <span className="onsale"><span className="number">-14%</span></span>
@@ -338,7 +306,7 @@ export default function Homepage() {
             <div className="product-inner tooltip-top tooltip-all-top">
               <div className="product-thumb">
                 <a className="thumb-link" href="#">
-                  <img className="img-responsive" src="assets/images/apro181-2-270x350.jpg" alt="Floral Stripe" width={270} height={350} />
+                  <img className="img-responsive" src={apro} alt="Floral Stripe" width={270} height={350} />
                 </a>
                 <div className="flash">
                   <span className="onnew"><span className="text">New</span></span></div>
@@ -368,136 +336,10 @@ export default function Homepage() {
               </div>
             </div>
           </div>
-          <div className="product-item best-selling style-04 rows-space-30 col-bg-3 col-xl-3 col-lg-4 col-md-4 col-sm-6 col-ts-6 post-30 product type-product status-publish has-post-thumbnail product_cat-light product_cat-bed product_cat-specials product_tag-light product_tag-table product_tag-sock first instock featured downloadable shipping-taxable purchasable product-type-simple">
-            <div className="product-inner tooltip-top tooltip-all-top">
-              <div className="product-thumb">
-                <a className="thumb-link" href="#">
-                  <img className="img-responsive" src="assets/images/apro101-1-270x350.jpg" alt="Long Oversized" width={270} height={350} />
-                </a>
-                <div className="flash">
-                  <span className="onnew"><span className="text">New</span></span></div>
-                <div className="group-button">
-                  <div className="add-to-cart">
-                    <a href="#" className="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to
-                      cart</a>
-                  </div>
-                  <a href="#" className="button yith-wcqv-button">Quick View</a>
-                  <div className="akasha product compare-button">
-                    <a href="#" className="compare button">Compare</a></div>
-                  <div className="yith-wcwl-add-to-wishlist">
-                    <div className="yith-wcwl-add-button show">
-                      <a href="#" className="add_to_wishlist">Add to Wishlist</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="product-info">
-                <h3 className="product-name product_title">
-                  <a href="#">Long Oversized</a>
-                </h3>
-                <span className="price"><span className="akasha-Price-amount amount"><span className="akasha-Price-currencySymbol">$</span>60.00</span></span>
-                <div className="rating-wapper nostar">
-                  <div className="star-rating"><span style={{width: '0%'}}>Rated <strong className="rating">0</strong> out of 5</span></div>
-                  <span className="review">(0)</span></div>
-              </div>
-            </div>
-          </div>
-          <div className="product-item best-selling style-04 rows-space-30 col-bg-3 col-xl-3 col-lg-4 col-md-4 col-sm-6 col-ts-6 post-35 product type-product status-publish has-post-thumbnail product_cat-chair product_cat-new-arrivals product_cat-lamp product_tag-light product_tag-hat product_tag-sock  instock shipping-taxable purchasable product-type-simple">
-            <div className="product-inner tooltip-top tooltip-all-top">
-              <div className="product-thumb">
-                <a className="thumb-link" href="#">
-                  <img className="img-responsive" src="assets/images/apro41-1-270x350.jpg" alt="Brown Shirt" width={270} height={350} />
-                </a>
-                <div className="flash">
-                  <span className="onnew"><span className="text">New</span></span></div>
-                <div className="group-button">
-                  <div className="add-to-cart">
-                    <a href="#" className="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to
-                      cart</a>
-                  </div>
-                  <a href="#" className="button yith-wcqv-button">Quick View</a>
-                  <div className="akasha product compare-button">
-                    <a href="#" className="compare button">Compare</a></div>
-                  <div className="yith-wcwl-add-to-wishlist">
-                    <div className="yith-wcwl-add-button show">
-                      <a href="#" className="add_to_wishlist">Add to Wishlist</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="product-info">
-                <h3 className="product-name product_title">
-                  <a href="#">Brown Shirt</a>
-                </h3>
-                <span className="price"><span className="akasha-Price-amount amount"><span className="akasha-Price-currencySymbol">$</span>134.00</span></span>
-                <div className="rating-wapper nostar">
-                  <div className="star-rating"><span style={{width: '0%'}}>Rated <strong className="rating">0</strong> out of 5</span></div>
-                  <span className="review">(0)</span></div>
-              </div>
-            </div>
-          </div>
-          <div className="product-item best-selling style-04 rows-space-30 col-bg-3 col-xl-3 col-lg-4 col-md-4 col-sm-6 col-ts-6 post-24 product type-product status-publish has-post-thumbnail product_cat-chair product_cat-table product_cat-new-arrivals product_tag-light product_tag-hat product_tag-sock last instock featured shipping-taxable purchasable product-type-variable has-default-attributes">
-            <div className="product-inner tooltip-top tooltip-all-top">
-              <div className="product-thumb">
-                <a className="thumb-link" href="#">
-                  <img className="img-responsive" src="assets/images/apro161-1-270x350.jpg" alt="Women Bags" width={270} height={350} />
-                </a>
-                <div className="flash">
-                  <span className="onnew"><span className="text">New</span></span></div>
-                <form className="variations_form cart">
-                  <table className="variations">
-                    <tbody>
-                      <tr>
-                        <td className="value">
-                          <select title="box_style" data-attributetype="box_style" data-id="pa_color" className="attribute-select " name="attribute_pa_color" data-attribute_name="attribute_pa_color" data-show_option_none="yes">
-                            <option data-type data-pa_color value>Choose an
-                              option
-                            </option>
-                            <option data-width={30} data-height={30} data-type="color" data-pa_color="#3155e2" value="blue" className="attached enabled">Blue
-                            </option>
-                            <option data-width={30} data-height={30} data-type="color" data-pa_color="#49aa51" value="green" className="attached enabled">Green
-                            </option>
-                            <option data-width={30} data-height={30} data-type="color" data-pa_color="#ff63cb" value="pink" className="attached enabled">Pink
-                            </option>
-                          </select>
-                          <div className="data-val attribute-pa_color" data-attributetype="box_style"><a className="change-value color" href="#" style={{background: '#3155e2'}} data-value="blue" /><a className="change-value color" href="#" style={{background: '#49aa51'}} data-value="green" /><a className="change-value color" href="#" style={{background: '#ff63cb'}} data-value="pink" /></div>
-                          <a className="reset_variations" href="#" style={{visibility: 'hidden'}}>Clear</a>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </form>
-                <div className="group-button">
-                  <div className="add-to-cart">
-                    <a href="#" className="button product_type_simple add_to_cart_button ajax_add_to_cart">Select
-                      options</a>
-                  </div>
-                  <a href="#" className="button yith-wcqv-button">Quick View</a>
-                  <div className="akasha product compare-button">
-                    <a href="#" className="compare button">Compare</a></div>
-                  <div className="yith-wcwl-add-to-wishlist">
-                    <div className="yith-wcwl-add-button show">
-                      <a href="#" className="add_to_wishlist">Add to Wishlist</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="product-info">
-                <h3 className="product-name product_title">
-                  <a href="#">Women Bags</a>
-                </h3>
-                <span className="price"><span className="akasha-Price-amount amount"><span className="akasha-Price-currencySymbol">$</span>45.00</span> – <span className="akasha-Price-amount amount"><span className="akasha-Price-currencySymbol">$</span>54.00</span></span>
-                <div className="rating-wapper nostar">
-                  <div className="star-rating"><span style={{width: '0%'}}>Rated <strong className="rating">0</strong> out of 5</span></div>
-                  <span className="review">(0)</span></div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
-
     )
 }
