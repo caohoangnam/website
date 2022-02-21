@@ -43,30 +43,14 @@ export default function Homepage() {
                 </a>
                 <div className="flash">
                   <span className="onsale"><span className="number">-11%</span></span>
-                  <span className="onnew"><span className="text">New</span></span></div>
-                <div className="group-button">
-                  <div className="add-to-cart">
-                    <a href="#" className="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to
-                      cart</a>
-                  </div>
-                  <a href="#" className="button yith-wcqv-button">Quick View</a>
-                  <div className="akasha product compare-button">
-                    <a href="#" className="compare button">Compare</a></div>
-                  <div className="yith-wcwl-add-to-wishlist">
-                    <div className="yith-wcwl-add-button show">
-                      <a href="#" className="add_to_wishlist">Add to Wishlist</a>
-                    </div>
-                  </div>
-                </div>
+		  <span className="onnew"><span className="text">New</span></span>
+	       </div>
               </div>
               <div className="product-info">
                 <h3 className="product-name product_title">
                   <a href="#">Utility Pockets</a>
                 </h3>
                 <span className="price"><del><span className="akasha-Price-amount amount"><span className="akasha-Price-currencySymbol">$</span>89.00</span></del> <ins><span className="akasha-Price-amount amount"><span className="akasha-Price-currencySymbol">$</span>79.00</span></ins></span>
-                <div className="rating-wapper nostar">
-                  <div className="star-rating"><span style={{width: '0%'}}>Rated <strong className="rating">0</strong> out of 5</span></div>
-                  <span className="review">(0)</span></div>
               </div>
             </div>
           </div>
@@ -77,53 +61,14 @@ export default function Homepage() {
 			<img className="img-responsive" src={apro} alt="Knitted Stripe " width={270} height={350} />
                 </a>
                 <div className="flash">
-                  <span className="onnew"><span className="text">New</span></span></div>
-                <form className="variations_form cart">
-                  <table className="variations">
-                    <tbody>
-                      <tr>
-                        <td className="value">
-                          <select title="box_style" data-attributetype="box_style" data-id="pa_color" className="attribute-select " name="attribute_pa_color" data-attribute_name="attribute_pa_color" data-show_option_none="yes">
-                            <option data-type data-pa_color value>Choose an
-                              option
-                            </option>
-                            <option data-width={30} data-height={30} data-type="color" data-pa_color="#ff63cb" value="pink" className="attached enabled">Pink
-                            </option>
-                            <option data-width={30} data-height={30} data-type="color" data-pa_color="#a825ea" value="purple" className="attached enabled">Purple
-                            </option>
-                            <option data-width={30} data-height={30} data-type="color" data-pa_color="#db2b00" value="red" className="attached enabled">Red
-                            </option>
-                          </select>
-                          <div className="data-val attribute-pa_color" data-attributetype="box_style"><a className="change-value color" href="#" style={{background: '#ff63cb'}} data-value="pink" /><a className="change-value color" href="#" style={{background: '#a825ea'}} data-value="purple" /><a className="change-value color" href="#" style={{background: '#db2b00'}} data-value="red" /></div>
-                          <a className="reset_variations" href="#" style={{visibility: 'hidden'}}>Clear</a>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </form>
-                <div className="group-button">
-                  <div className="add-to-cart">
-                    <a href="#" className="button product_type_simple add_to_cart_button ajax_add_to_cart">Select
-                      options</a>
-                  </div>
-                  <a href="#" className="button yith-wcqv-button">Quick View</a>
-                  <div className="akasha product compare-button">
-                    <a href="#" className="compare button">Compare</a></div>
-                  <div className="yith-wcwl-add-to-wishlist">
-                    <div className="yith-wcwl-add-button show">
-                      <a href="#" className="add_to_wishlist">Add to Wishlist</a>
-                    </div>
-                  </div>
-                </div>
+			<span className="onnew"><span className="text">New</span></span>
+		</div>
               </div>
               <div className="product-info">
                 <h3 className="product-name product_title">
                   <a href="#">Knitted Stripe </a>
                 </h3>
                 <span className="price"><span className="akasha-Price-amount amount"><span className="akasha-Price-currencySymbol">$</span>105.00</span> – <span className="akasha-Price-amount amount"><span className="akasha-Price-currencySymbol">$</span>110.00</span></span>
-                <div className="rating-wapper nostar">
-                  <div className="star-rating"><span style={{width: '0%'}}>Rated <strong className="rating">0</strong> out of 5</span></div>
-                  <span className="review">(0)</span></div>
               </div>
             </div>
           </div>
@@ -136,29 +81,12 @@ export default function Homepage() {
                 <div className="flash">
                   <span className="onsale"><span className="number">-18%</span></span>
                   <span className="onnew"><span className="text">New</span></span></div>
-                <div className="group-button">
-                  <div className="add-to-cart">
-                    <a href="#" className="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to
-                      cart</a>
-                  </div>
-                  <a href="#" className="button yith-wcqv-button">Quick View</a>
-                  <div className="akasha product compare-button">
-                    <a href="#" className="compare button">Compare</a></div>
-                  <div className="yith-wcwl-add-to-wishlist">
-                    <div className="yith-wcwl-add-button show">
-                      <a href="#" className="add_to_wishlist">Add to Wishlist</a>
-                    </div>
-                  </div>
-                </div>
               </div>
               <div className="product-info">
                 <h3 className="product-name product_title">
                   <a href="#">Women Bags</a>
                 </h3>
                 <span className="price"><del><span className="akasha-Price-amount amount"><span className="akasha-Price-currencySymbol">$</span>109.00</span></del> <ins><span className="akasha-Price-amount amount"><span className="akasha-Price-currencySymbol">$</span>89.00</span></ins></span>
-                <div className="rating-wapper nostar">
-                  <div className="star-rating"><span style={{width: '0%'}}>Rated <strong className="rating">0</strong> out of 5</span></div>
-                  <span className="review">(0)</span></div>
               </div>
             </div>
           </div>
@@ -171,29 +99,12 @@ export default function Homepage() {
                 <div className="flash">
                   <span className="onsale"><span className="number">-7%</span></span>
                   <span className="onnew"><span className="text">New</span></span></div>
-                <div className="group-button">
-                  <div className="add-to-cart">
-                    <a href="#" className="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to
-                      cart</a>
-                  </div>
-                  <a href="#" className="button yith-wcqv-button">Quick View</a>
-                  <div className="akasha product compare-button">
-                    <a href="#" className="compare button">Compare</a></div>
-                  <div className="yith-wcwl-add-to-wishlist">
-                    <div className="yith-wcwl-add-button show">
-                      <a href="#" className="add_to_wishlist">Add to Wishlist</a>
-                    </div>
-                  </div>
-                </div>
               </div>
               <div className="product-info">
                 <h3 className="product-name product_title">
                   <a href="#">Mini Dress</a>
                 </h3>
                 <span className="price"><del><span className="akasha-Price-amount amount"><span className="akasha-Price-currencySymbol">$</span>150.00</span></del> <ins><span className="akasha-Price-amount amount"><span className="akasha-Price-currencySymbol">$</span>139.00</span></ins></span>
-                <div className="rating-wapper nostar">
-                  <div className="star-rating"><span style={{width: '0%'}}>Rated <strong className="rating">0</strong> out of 5</span></div>
-                  <span className="review">(0)</span></div>
               </div>
             </div>
           </div>
@@ -206,29 +117,12 @@ export default function Homepage() {
                 <div className="flash">
                   <span className="onsale"><span className="number">-21%</span></span>
                   <span className="onnew"><span className="text">New</span></span></div>
-                <div className="group-button">
-                  <div className="add-to-cart">
-                    <a href="#" className="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to
-                      cart</a>
-                  </div>
-                  <a href="#" className="button yith-wcqv-button">Quick View</a>
-                  <div className="akasha product compare-button">
-                    <a href="#" className="compare button">Compare</a></div>
-                  <div className="yith-wcwl-add-to-wishlist">
-                    <div className="yith-wcwl-add-button show">
-                      <a href="#" className="add_to_wishlist">Add to Wishlist</a>
-                    </div>
-                  </div>
-                </div>
               </div>
               <div className="product-info">
                 <h3 className="product-name product_title">
                   <a href="#">Print In White</a>
                 </h3>
                 <span className="price"><del><span className="akasha-Price-amount amount"><span className="akasha-Price-currencySymbol">$</span>125.00</span></del> <ins><span className="akasha-Price-amount amount"><span className="akasha-Price-currencySymbol">$</span>99.00</span></ins></span>
-                <div className="rating-wapper nostar">
-                  <div className="star-rating"><span style={{width: '0%'}}>Rated <strong className="rating">0</strong> out of 5</span></div>
-                  <span className="review">(0)</span></div>
               </div>
             </div>
           </div>
@@ -240,29 +134,12 @@ export default function Homepage() {
                 </a>
                 <div className="flash">
                   <span className="onnew"><span className="text">New</span></span></div>
-                <div className="group-button">
-                  <div className="add-to-cart">
-                    <a href="#" className="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to
-                      cart</a>
-                  </div>
-                  <a href="#" className="button yith-wcqv-button">Quick View</a>
-                  <div className="akasha product compare-button">
-                    <a href="#" className="compare button">Compare</a></div>
-                  <div className="yith-wcwl-add-to-wishlist">
-                    <div className="yith-wcwl-add-button show">
-                      <a href="#" className="add_to_wishlist">Add to Wishlist</a>
-                    </div>
-                  </div>
-                </div>
               </div>
               <div className="product-info">
                 <h3 className="product-name product_title">
                   <a href="#">Smock Dress</a>
                 </h3>
                 <span className="price"><span className="akasha-Price-amount amount"><span className="akasha-Price-currencySymbol">$</span>79.00</span></span>
-                <div className="rating-wapper nostar">
-                  <div className="star-rating"><span style={{width: '0%'}}>Rated <strong className="rating">0</strong> out of 5</span></div>
-                  <span className="review">(0)</span></div>
               </div>
             </div>
           </div>
@@ -275,30 +152,12 @@ export default function Homepage() {
                 <div className="flash">
                   <span className="onsale"><span className="number">-14%</span></span>
                   <span className="onnew"><span className="text">New</span></span></div>
-                <div className="group-button">
-                  <div className="add-to-cart">
-                    <a href="#" className="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to
-                      cart</a>
-                  </div>
-                  <a href="#" className="button yith-wcqv-button">Quick View</a>
-                  <div className="akasha product compare-button">
-                    <a href="#" className="compare button">Compare</a></div>
-                  <div className="yith-wcwl-add-to-wishlist">
-                    <div className="yith-wcwl-add-button show">
-                      <a href="#" className="add_to_wishlist">Add to Wishlist</a>
-                    </div>
-                  </div>
-                </div>
               </div>
               <div className="product-info">
                 <h3 className="product-name product_title">
                   <a href="#">Classic Shirt</a>
                 </h3>
                 <span className="price"><del><span className="akasha-Price-amount amount"><span className="akasha-Price-currencySymbol">$</span>138.00</span></del> <ins><span className="akasha-Price-amount amount"><span className="akasha-Price-currencySymbol">$</span>119.00</span></ins></span>
-                <div className="rating-wapper ">
-                  <div className="star-rating"><span style={{width: '100%'}}>Rated <strong className="rating">5.00</strong> out of 5</span>
-                  </div>
-                  <span className="review">(1)</span></div>
               </div>
             </div>
           </div>
@@ -310,29 +169,12 @@ export default function Homepage() {
                 </a>
                 <div className="flash">
                   <span className="onnew"><span className="text">New</span></span></div>
-                <div className="group-button">
-                  <div className="add-to-cart">
-                    <a href="#" className="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to
-                      cart</a>
-                  </div>
-                  <a href="#" className="button yith-wcqv-button">Quick View</a>
-                  <div className="akasha product compare-button">
-                    <a href="#" className="compare button">Compare</a></div>
-                  <div className="yith-wcwl-add-to-wishlist">
-                    <div className="yith-wcwl-add-button show">
-                      <a href="#" className="add_to_wishlist">Add to Wishlist</a>
-                    </div>
-                  </div>
-                </div>
               </div>
               <div className="product-info">
                 <h3 className="product-name product_title">
                   <a href="#">Floral Stripe</a>
                 </h3>
                 <span className="price"><span className="akasha-Price-amount amount"><span className="akasha-Price-currencySymbol">$</span>98.00</span></span>
-                <div className="rating-wapper nostar">
-                  <div className="star-rating"><span style={{width: '0%'}}>Rated <strong className="rating">0</strong> out of 5</span></div>
-                  <span className="review">(0)</span></div>
               </div>
             </div>
           </div>

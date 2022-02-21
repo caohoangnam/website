@@ -7,27 +7,7 @@ export default function Footer() {
     <div className="container">
       <div className="row">
         <div className="col-md-6">
-          <p>© Copyright 2020 <a href="#">Akasha</a>. All Rights Reserved.</p>
-        </div>
-        <div className="col-md-6">
-          <div className="akasha-listitem style-03">
-            <div className="listitem-inner">
-              <ul className="listitem-list">
-                <li>
-                  <a href="#" target="_self">
-                    Contact </a>
-                </li>
-                <li>
-                  <a href="#" target="_self">
-                    Term &amp; Conditions </a>
-                </li>
-                <li>
-                  <a href="#" target="_self">
-                    Shipping </a>
-                </li>
-              </ul>
-            </div>
-          </div>
+          <p>© Copyright 2022 <a href="#">XuanStore</a></p>
         </div>
       </div>
     </div>
